@@ -1,0 +1,209 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         04/Apr/2021  13:44:23
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\LedEventTask.cpp
+#    Command line =
+#        -f C:\Users\D13C~1\AppData\Local\Temp\EW2497.tmp
+#        (C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\LedEventTask.cpp
+#        -lC
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\List
+#        -lA
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\List
+#        -o
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\wrapper\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\wrapper\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\include\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\MemMang\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\CMSIS\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Diagnostic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\GpioPort\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\IrqController\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\Common\Singleton\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\Common\RomObject\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Button\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Led\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Measurement\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\USART\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues\
+#        -Ol --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\List\LedEventTask.lst
+#    Object file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\Obj\LedEventTask.o
+#
+###############################################################################
+
+C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\LedEventTask.cpp
+      1          #include "LedEventTask.hpp"
+Warning[Ms014]: some characters could not be correctly encoded in
+          "C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Deb
+          ug\List\LedEventTask.s", and have been replaced with '@'. The first
+          such character has unicode code point 0x41d ("@")
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_steady
+   \                     _ZNSt6chrono12system_clock9is_steadyE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::system_clock::is_monotonic
+   \                     _ZNSt6chrono12system_clock12is_monotonicE:
+   \        0x0   0x00               DC8 0
+
+   \                                 In section .rodata, align 1
+   \   __absolute bool const std::chrono::steady_clock::is_steady
+   \                     _ZNSt6chrono12steady_clock9is_steadyE:
+   \        0x0   0x01               DC8 1
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp uint32_t OsWrapper::RtosWrapper::wWaitEvent(void * const &, uint32_t, uint32_t, OsWrapper::EventMode)
+   \                     _ZN9OsWrapper11RtosWrapper10wWaitEventERKPvjjNS_9EventModeE: (+1)
+   \        0x0   0xB51C             PUSH     {R2-R4,LR}
+   \        0x2   0x001C             MOVS     R4,R3
+   \        0x4   0x2300             MOVS     R3,#+0
+   \        0x6   0x2C00             CMP      R4,#+0
+   \        0x8   0xD100             BNE.N    ??wWaitEvent_0
+   \        0xA   0x2300             MOVS     R3,#+0
+   \                     ??wWaitEvent_0: (+1)
+   \        0xC   0x9200             STR      R2,[SP, #+0]
+   \        0xE   0x2201             MOVS     R2,#+1
+   \       0x10   0x6800             LDR      R0,[R0, #+0]
+   \       0x12   0x....'....        BL       xEventGroupWaitBits
+   \       0x16   0xBD16             POP      {R1,R2,R4,PC}    ;; return
+
+   \                                 In section .text, align 2
+   \   __interwork __vfp uint32_t OsWrapper::Event::Wait(OsWrapper::EventMode, uint32_t) const
+   \                     _ZNK9OsWrapper5Event4WaitENS_9EventModeEj: (+1)
+   \        0x0   0xB580             PUSH     {R7,LR}
+   \        0x2   0x000B             MOVS     R3,R1
+   \        0x4   0x0011             MOVS     R1,R2
+   \        0x6   0x69C2             LDR      R2,[R0, #+28]
+   \        0x8   0x....'....        BL       _ZN9OsWrapper11RtosWrapper10wWaitEventERKPvjjNS_9EventModeE
+   \        0xC   0xBD02             POP      {R1,PC}          ;; return
+      2          
+
+   \                                 In section .text, align 2, keep-with-next
+      3          void LedEventTask::Execute()
+      4          {
+   \                     _ZN12LedEventTask7ExecuteEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+      5            for(;;)
+      6            {
+      7              if (event.Wait() != 0)
+   \                     ??Execute_0: (+1)
+   \        0x4   0x22FF             MOVS     R2,#+255
+   \        0x6   0x2100             MOVS     R1,#+0
+   \        0x8   0xF8D4 0x0260      LDR      R0,[R4, #+608]
+   \        0xC   0x....'....        BL       _ZNK9OsWrapper5Event4WaitENS_9EventModeEj
+   \       0x10   0x2800             CMP      R0,#+0
+   \       0x12   0xD0F7             BEQ.N    ??Execute_0
+      8              {
+      9                led.Toggle();
+   \       0x14   0xF8D4 0x025C      LDR      R0,[R4, #+604]
+   \       0x18   0x....'....        BL       _ZN3Led6ToggleEv
+   \       0x1C   0xE7F2             B.N      ??Execute_0
+     10              }
+     11            }
+     12          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   LedEventTask::Execute()
+         8   -> Led::Toggle()
+         8   -> OsWrapper::Event::Wait(OsWrapper::EventMode, uint32_t) const
+       8   OsWrapper::Event::Wait(OsWrapper::EventMode, uint32_t) const
+         8   -> OsWrapper::RtosWrapper::wWaitEvent(void * const &, uint32_t, uint32_t, OsWrapper::EventMode)
+      16   OsWrapper::RtosWrapper::wWaitEvent(void * const &, uint32_t, uint32_t, OsWrapper::EventMode)
+        16   -> xEventGroupWaitBits
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      30  LedEventTask::Execute()
+      14  OsWrapper::Event::Wait(OsWrapper::EventMode, uint32_t) const
+      24  OsWrapper::RtosWrapper::wWaitEvent(void * const &, uint32_t, uint32_t, OsWrapper::EventMode)
+       1  std::chrono::steady_clock::is_steady
+       1  std::chrono::system_clock::is_monotonic
+       1  std::chrono::system_clock::is_steady
+     136  -- Other
+
+ 
+ 139 bytes in section .rodata
+  68 bytes in section .text
+ 
+ 30 bytes of CODE  memory (+  38 bytes shared)
+  0 bytes of CONST memory (+ 139 bytes shared)
+
+Errors: none
+Warnings: 1

@@ -1,0 +1,462 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         15/Apr/2021  22:08:04
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\Pin\pin.cpp
+#    Command line =
+#        -f C:\Users\D13C~1\AppData\Local\Temp\EW702D.tmp
+#        (C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\Pin\pin.cpp
+#        -lC
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\List
+#        -lA
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\List
+#        -o
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\wrapper\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\wrapper\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\include\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\MemMang\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\MyTasks\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\CMSIS\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Diagnostic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\GpioPort\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\IrqController\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\Common\Singleton\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\Common\RomObject\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Button\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Led\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Measurement\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\USART\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\SPI\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\BME280Driver\
+#        -On --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\List\pin.lst
+#    Object file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\Obj\pin.o
+#
+###############################################################################
+
+C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\Pin\pin.cpp
+      1          #include "pin.h" //for Pin
+Warning[Ms014]: some characters could not be correctly encoded in
+          "C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\De
+          bug\List\pin.s", and have been replaced with '@'. The first such
+          character has unicode code point 0x41d ("@")
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp ILedPin::subobject ILedPin()
+   \                     _ZN7ILedPinC2Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN7ILedPinC1Ev
+   \        0xA   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp ILedPin::ILedPin()
+   \                     _ZN7ILedPinC1Ev: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp IButtonPin::subobject IButtonPin()
+   \                     _ZN10IButtonPinC2Ev: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN10IButtonPinC1Ev
+   \        0xA   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2
+   \   __code __interwork __vfp IButtonPin::IButtonPin()
+   \                     _ZN10IButtonPinC1Ev: (+1)
+   \        0x0   0x4770             BX       LR               ;; return
+      2          
+      3          
+      4          
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __code __interwork __vfp Pin::subobject Pin(uint8_t, IPort &)
+   \                     _ZN3PinC2EhR5IPort: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0xB2C9             UXTB     R1,R1            ;; ZeroExt  R1,R1,#+24,#+24
+   \        0x6   0x0020             MOVS     R0,R4
+   \        0x8   0x....'....        BL       _ZN3PinC1EhR5IPort
+   \        0xC   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+      5          Pin::Pin(uint8_t aNumber, IPort& aPort): number(aNumber), 
+      6                                                   port(aPort)
+      7          {
+   \                     _ZN3PinC1EhR5IPort: (+1)
+   \        0x0   0xB570             PUSH     {R4-R6,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+   \        0x6   0x0016             MOVS     R6,R2
+   \        0x8   0x0020             MOVS     R0,R4
+   \        0xA   0x....'....        BL       _ZN10IButtonPinC2Ev
+   \        0xE   0x1D20             ADDS     R0,R4,#+4
+   \       0x10   0x....'....        BL       _ZN7ILedPinC2Ev
+   \       0x14   0x....             LDR.N    R0,??DataTable1
+   \       0x16   0xF110 0x0108      ADDS     R1,R0,#+8
+   \       0x1A   0x6021             STR      R1,[R4, #+0]
+   \       0x1C   0x302C             ADDS     R0,R0,#+44
+   \       0x1E   0x6060             STR      R0,[R4, #+4]
+   \       0x20   0x7225             STRB     R5,[R4, #+8]
+   \       0x22   0x60E6             STR      R6,[R4, #+12]
+      8          }
+   \       0x24   0x0020             MOVS     R0,R4
+   \       0x26   0xBD70             POP      {R4-R6,PC}       ;; return
+      9          
+
+   \                                 In section .text, align 2, keep-with-next
+     10          void Pin::Toggle()
+     11          {
+   \                     _ZN3Pin6ToggleEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     12            port.Toggle(number);
+   \        0x4   0x7A21             LDRB     R1,[R4, #+8]
+   \        0x6   0x68E0             LDR      R0,[R4, #+12]
+   \        0x8   0x68E2             LDR      R2,[R4, #+12]
+   \        0xA   0x6812             LDR      R2,[R2, #+0]
+   \        0xC   0x6812             LDR      R2,[R2, #+0]
+   \        0xE   0x4790             BLX      R2
+     13          }
+   \       0x10   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     14          void Pin::Set()
+     15          {
+   \                     _ZN3Pin3SetEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     16               port.Set(1<<number);
+   \        0x4   0x2101             MOVS     R1,#+1
+   \        0x6   0xF994 0x0008      LDRSB    R0,[R4, #+8]
+   \        0xA   0x4081             LSLS     R1,R1,R0
+   \        0xC   0x68E0             LDR      R0,[R4, #+12]
+   \        0xE   0x68E2             LDR      R2,[R4, #+12]
+   \       0x10   0x6812             LDR      R2,[R2, #+0]
+   \       0x12   0x6892             LDR      R2,[R2, #+8]
+   \       0x14   0x4790             BLX      R2
+     17          }
+   \       0x16   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     18          void Pin::Reset()
+     19          {
+   \                     _ZN3Pin5ResetEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     20               port.Reset(1<<number);
+   \        0x4   0x2101             MOVS     R1,#+1
+   \        0x6   0xF994 0x0008      LDRSB    R0,[R4, #+8]
+   \        0xA   0x4081             LSLS     R1,R1,R0
+   \        0xC   0x68E0             LDR      R0,[R4, #+12]
+   \        0xE   0x68E2             LDR      R2,[R4, #+12]
+   \       0x10   0x6812             LDR      R2,[R2, #+0]
+   \       0x12   0x68D2             LDR      R2,[R2, #+12]
+   \       0x14   0x4790             BLX      R2
+     21          }
+   \       0x16   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     22          bool Pin::IsSet()
+     23          {
+   \                     _ZN3Pin5IsSetEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     24            return port.IsSet(number);
+   \        0x4   0x7A21             LDRB     R1,[R4, #+8]
+   \        0x6   0x68E0             LDR      R0,[R4, #+12]
+   \        0x8   0x68E2             LDR      R2,[R4, #+12]
+   \        0xA   0x6812             LDR      R2,[R2, #+0]
+   \        0xC   0x6952             LDR      R2,[R2, #+20]
+   \        0xE   0x4790             BLX      R2
+   \       0x10   0xBD10             POP      {R4,PC}          ;; return
+     25          }
+
+   \                                 In section .text, align 2, keep-with-next
+     26          uint8_t Pin::Get()
+     27          {
+   \                     _ZN3Pin3GetEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     28            return Pin::IsSet()?1U:0U;
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN3Pin5IsSetEv
+   \        0xA   0x2800             CMP      R0,#+0
+   \        0xC   0xD001             BEQ.N    ??Get_0
+   \        0xE   0x2001             MOVS     R0,#+1
+   \       0x10   0xE000             B.N      ??Get_1
+   \                     ??Get_0: (+1)
+   \       0x12   0x2000             MOVS     R0,#+0
+   \                     ??Get_1: (+1)
+   \       0x14   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \       0x16   0xBD10             POP      {R4,PC}          ;; return
+     29          }
+
+   \                                 In section .text, align 2, keep-with-next
+     30          void Pin::Enable()
+     31          {
+   \                     _ZN3Pin6EnableEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     32            if(!port.IsEnable())port.Enable();
+   \        0x4   0x68E0             LDR      R0,[R4, #+12]
+   \        0x6   0x68E1             LDR      R1,[R4, #+12]
+   \        0x8   0x6809             LDR      R1,[R1, #+0]
+   \        0xA   0x6A49             LDR      R1,[R1, #+36]
+   \        0xC   0x4788             BLX      R1
+   \        0xE   0x2800             CMP      R0,#+0
+   \       0x10   0xD104             BNE.N    ??Enable_0
+   \       0x12   0x68E0             LDR      R0,[R4, #+12]
+   \       0x14   0x68E1             LDR      R1,[R4, #+12]
+   \       0x16   0x6809             LDR      R1,[R1, #+0]
+   \       0x18   0x69C9             LDR      R1,[R1, #+28]
+   \       0x1A   0x4788             BLX      R1
+     33          }
+   \                     ??Enable_0: (+1)
+   \       0x1C   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     34          void Pin::SelectInputMode()
+     35          {
+   \                     _ZN3Pin15SelectInputModeEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     36            port.ModeSet(number,Moder::Input);
+   \        0x4   0x2200             MOVS     R2,#+0
+   \        0x6   0x7A21             LDRB     R1,[R4, #+8]
+   \        0x8   0x68E0             LDR      R0,[R4, #+12]
+   \        0xA   0x68E3             LDR      R3,[R4, #+12]
+   \        0xC   0x681B             LDR      R3,[R3, #+0]
+   \        0xE   0x699B             LDR      R3,[R3, #+24]
+   \       0x10   0x4798             BLX      R3
+     37          }
+   \       0x12   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     38          void Pin::SelectOutputMode()
+     39          {
+   \                     _ZN3Pin16SelectOutputModeEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     40            port.ModeSet(number,Moder::Output);
+   \        0x4   0x2201             MOVS     R2,#+1
+   \        0x6   0x7A21             LDRB     R1,[R4, #+8]
+   \        0x8   0x68E0             LDR      R0,[R4, #+12]
+   \        0xA   0x68E3             LDR      R3,[R4, #+12]
+   \        0xC   0x681B             LDR      R3,[R3, #+0]
+   \        0xE   0x699B             LDR      R3,[R3, #+24]
+   \       0x10   0x4798             BLX      R3
+     41          }
+   \       0x12   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     42          void Pin::SelectMode(Moder moder)
+     43          {
+   \                     _ZN3Pin10SelectModeE5Moder: (+1)
+   \        0x0   0xB538             PUSH     {R3-R5,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x000D             MOVS     R5,R1
+     44            port.ModeSet(number,moder);
+   \        0x6   0x002A             MOVS     R2,R5
+   \        0x8   0xB2D2             UXTB     R2,R2            ;; ZeroExt  R2,R2,#+24,#+24
+   \        0xA   0x7A21             LDRB     R1,[R4, #+8]
+   \        0xC   0x68E0             LDR      R0,[R4, #+12]
+   \        0xE   0x68E3             LDR      R3,[R4, #+12]
+   \       0x10   0x681B             LDR      R3,[R3, #+0]
+   \       0x12   0x699B             LDR      R3,[R3, #+24]
+   \       0x14   0x4798             BLX      R3
+     45          }
+   \       0x16   0xBD31             POP      {R0,R4,R5,PC}    ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \        0x0   0x....'....        DC32     _ZTV3Pin
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __interwork __vfp void Pin::Toggle for ILedPin/-4/()
+   \                     _ZThn4_N3Pin6ToggleEv: (+1)
+   \        0x0   0x1F00             SUBS     R0,R0,#+4
+   \        0x2                      REQUIRE _ZN3Pin6ToggleEv
+   \        0x2                      ;; // Fall through to label Pin::Toggle()
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __interwork __vfp void Pin::Set for ILedPin/-4/()
+   \                     _ZThn4_N3Pin3SetEv: (+1)
+   \        0x0   0x1F00             SUBS     R0,R0,#+4
+   \        0x2                      REQUIRE _ZN3Pin3SetEv
+   \        0x2                      ;; // Fall through to label Pin::Set()
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __interwork __vfp void Pin::Reset for ILedPin/-4/()
+   \                     _ZThn4_N3Pin5ResetEv: (+1)
+   \        0x0   0x1F00             SUBS     R0,R0,#+4
+   \        0x2                      REQUIRE _ZN3Pin5ResetEv
+   \        0x2                      ;; // Fall through to label Pin::Reset()
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __interwork __vfp void Pin::Enable for ILedPin/-4/()
+   \                     _ZThn4_N3Pin6EnableEv: (+1)
+   \        0x0   0x1F00             SUBS     R0,R0,#+4
+   \        0x2                      REQUIRE _ZN3Pin6EnableEv
+   \        0x2                      ;; // Fall through to label Pin::Enable()
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __interwork __vfp void Pin::SelectOutputMode for ILedPin/-4/()
+   \                     _ZThn4_N3Pin16SelectOutputModeEv: (+1)
+   \        0x0   0x1F00             SUBS     R0,R0,#+4
+   \        0x2                      REQUIRE _ZN3Pin16SelectOutputModeEv
+   \        0x2                      ;; // Fall through to label Pin::SelectOutputMode()
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   IButtonPin::IButtonPin()
+       8   IButtonPin::subobject IButtonPin()
+         8   -> IButtonPin::IButtonPin()
+       0   ILedPin::ILedPin()
+       8   ILedPin::subobject ILedPin()
+         8   -> ILedPin::ILedPin()
+       0   Pin::Enable for ILedPin/-4/()
+         0   -> Pin::Enable()
+       8   Pin::Enable()
+         8   -- Indirect call
+       8   Pin::Get()
+         8   -> Pin::IsSet()
+       8   Pin::IsSet()
+         8   -- Indirect call
+      16   Pin::Pin(uint8_t, IPort &)
+        16   -> IButtonPin::subobject IButtonPin()
+        16   -> ILedPin::subobject ILedPin()
+       0   Pin::Reset for ILedPin/-4/()
+         0   -> Pin::Reset()
+       8   Pin::Reset()
+         8   -- Indirect call
+       8   Pin::SelectInputMode()
+         8   -- Indirect call
+      16   Pin::SelectMode(Moder)
+        16   -- Indirect call
+       0   Pin::SelectOutputMode for ILedPin/-4/()
+         0   -> Pin::SelectOutputMode()
+       8   Pin::SelectOutputMode()
+         8   -- Indirect call
+       0   Pin::Set for ILedPin/-4/()
+         0   -> Pin::Set()
+       8   Pin::Set()
+         8   -- Indirect call
+       0   Pin::Toggle for ILedPin/-4/()
+         0   -> Pin::Toggle()
+       8   Pin::Toggle()
+         8   -- Indirect call
+       8   Pin::subobject Pin(uint8_t, IPort &)
+         8   -> Pin::Pin(uint8_t, IPort &)
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       2  IButtonPin::IButtonPin()
+      12  IButtonPin::subobject IButtonPin()
+       2  ILedPin::ILedPin()
+      12  ILedPin::subobject ILedPin()
+       2  Pin::Enable for ILedPin/-4/()
+      30  Pin::Enable()
+      24  Pin::Get()
+      18  Pin::IsSet()
+      40  Pin::Pin(uint8_t, IPort &)
+       2  Pin::Reset for ILedPin/-4/()
+      24  Pin::Reset()
+      20  Pin::SelectInputMode()
+      24  Pin::SelectMode(Moder)
+       2  Pin::SelectOutputMode for ILedPin/-4/()
+      20  Pin::SelectOutputMode()
+       2  Pin::Set for ILedPin/-4/()
+      24  Pin::Set()
+       2  Pin::Toggle for ILedPin/-4/()
+      18  Pin::Toggle()
+      14  Pin::subobject Pin(uint8_t, IPort &)
+     164  -- Other
+
+ 
+ 164 bytes in section .rodata
+ 298 bytes in section .text
+ 
+ 270 bytes of CODE  memory (+  28 bytes shared)
+   0 bytes of CONST memory (+ 164 bytes shared)
+
+Errors: none
+Warnings: 1

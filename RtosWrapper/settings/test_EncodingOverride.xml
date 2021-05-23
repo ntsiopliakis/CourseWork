@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>C:\GitHub\KursovoyKarkas\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>C:\GitHub\RtosWrapper\Rtos\wrapper\thread.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>C:\Users\Николаос\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\wrapper\thread.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>C:\Users\Николаос\Documents\MyIARprojects\KursovoiK\RtosWrapper\startupF411RE.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>C:\Users\Николаос\Documents\MyIARprojects\KursovoiK_\RtosWrapper\startupF411RE.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>C:\Users\Николаос\Documents\MyIARprojects\КурсовойК\RtosWrapper\MyTasks\LedEventTask.hpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+</userOverrides>

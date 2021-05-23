@@ -1,0 +1,237 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         15/Apr/2021  22:07:51
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Led\led.cpp
+#    Command line =
+#        -f C:\Users\D13C~1\AppData\Local\Temp\EW434E.tmp
+#        (C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Led\led.cpp
+#        -lC
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\List
+#        -lA
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\List
+#        -o
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\wrapper\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\wrapper\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\include\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Rtos\FreeRtos\portable\MemMang\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\MyTasks\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\CMSIS\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Diagnostic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\GpioPort\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\IrqController\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\Common\Singleton\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\Common\RomObject\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Button\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Led\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Measurement\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\USART\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\SPI\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\AHardware\BME280Driver\
+#        -On --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\List\led.lst
+#    Object file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Debug\Obj\led.o
+#
+###############################################################################
+
+C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\Application\Led\led.cpp
+      1          #include "led.h"
+Warning[Ms014]: some characters could not be correctly encoded in
+          "C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK_\RtosWrapper\De
+          bug\List\led.s", and have been replaced with '@'. The first such
+          character has unicode code point 0x41d ("@")
+      2          
+      3          
+
+   \                                 In section .text, align 2, keep-with-next
+   \   __code __interwork __vfp Led::subobject Led(ILedPin &)
+   \                     _ZN3LedC2ER7ILedPin: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+   \        0x4   0x0020             MOVS     R0,R4
+   \        0x6   0x....'....        BL       _ZN3LedC1ER7ILedPin
+   \        0xA   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+      4          Led::Led(ILedPin& aPin): pin(aPin)
+      5          {
+   \                     _ZN3LedC1ER7ILedPin: (+1)
+   \        0x0   0x6001             STR      R1,[R0, #+0]
+      6          }
+   \        0x2   0x4770             BX       LR               ;; return
+      7          
+
+   \                                 In section .text, align 2, keep-with-next
+      8          void Led::Toggle()
+      9          {
+   \                     _ZN3Led6ToggleEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     10            pin.Toggle();
+   \        0x4   0x6820             LDR      R0,[R4, #+0]
+   \        0x6   0x6821             LDR      R1,[R4, #+0]
+   \        0x8   0x6809             LDR      R1,[R1, #+0]
+   \        0xA   0x6809             LDR      R1,[R1, #+0]
+   \        0xC   0x4788             BLX      R1
+     11          }
+   \        0xE   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     12          void Led::TurnOn()
+     13          {
+   \                     _ZN3Led6TurnOnEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     14            pin.Set();
+   \        0x4   0x6820             LDR      R0,[R4, #+0]
+   \        0x6   0x6821             LDR      R1,[R4, #+0]
+   \        0x8   0x6809             LDR      R1,[R1, #+0]
+   \        0xA   0x6849             LDR      R1,[R1, #+4]
+   \        0xC   0x4788             BLX      R1
+     15          }
+   \        0xE   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+     16          void Led::TurnOff()
+     17          {
+   \                     _ZN3Led7TurnOffEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     18            pin.Reset();
+   \        0x4   0x6820             LDR      R0,[R4, #+0]
+   \        0x6   0x6821             LDR      R1,[R4, #+0]
+   \        0x8   0x6809             LDR      R1,[R1, #+0]
+   \        0xA   0x6889             LDR      R1,[R1, #+8]
+   \        0xC   0x4788             BLX      R1
+     19          }
+   \        0xE   0xBD10             POP      {R4,PC}          ;; return
+     20          
+
+   \                                 In section .text, align 2, keep-with-next
+     21          void Led::Enable()
+     22          {
+   \                     _ZN3Led6EnableEv: (+1)
+   \        0x0   0xB510             PUSH     {R4,LR}
+   \        0x2   0x0004             MOVS     R4,R0
+     23            pin.Enable();
+   \        0x4   0x6820             LDR      R0,[R4, #+0]
+   \        0x6   0x6821             LDR      R1,[R4, #+0]
+   \        0x8   0x6809             LDR      R1,[R1, #+0]
+   \        0xA   0x6909             LDR      R1,[R1, #+16]
+   \        0xC   0x4788             BLX      R1
+     24            pin.SelectOutputMode();
+   \        0xE   0x6820             LDR      R0,[R4, #+0]
+   \       0x10   0x6821             LDR      R1,[R4, #+0]
+   \       0x12   0x6809             LDR      R1,[R1, #+0]
+   \       0x14   0x68C9             LDR      R1,[R1, #+12]
+   \       0x16   0x4788             BLX      R1
+     25          }
+   \       0x18   0xBD10             POP      {R4,PC}          ;; return
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   Led::Enable()
+         8   -- Indirect call
+       0   Led::Led(ILedPin &)
+       8   Led::Toggle()
+         8   -- Indirect call
+       8   Led::TurnOff()
+         8   -- Indirect call
+       8   Led::TurnOn()
+         8   -- Indirect call
+       8   Led::subobject Led(ILedPin &)
+         8   -> Led::Led(ILedPin &)
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      26  Led::Enable()
+       4  Led::Led(ILedPin &)
+      16  Led::Toggle()
+      16  Led::TurnOff()
+      16  Led::TurnOn()
+      12  Led::subobject Led(ILedPin &)
+      20  -- Other
+
+ 
+ 20 bytes in section .rodata
+ 90 bytes in section .text
+ 
+ 90 bytes of CODE  memory
+  0 bytes of CONST memory (+ 20 bytes shared)
+
+Errors: none
+Warnings: 1

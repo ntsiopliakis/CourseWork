@@ -1,0 +1,6 @@
+Led1Task.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstddef \
+  C:\Users\Николаос\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
+  C:\Users\Николаос\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpioafieldvalues.hpp \
+  C:\Users\Николаос\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\gpioaregisters.hpp \
+  C:\Users\Николаос\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\Led1Task.cpp

@@ -1,0 +1,151 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V8.40.2.214/W32 for ARM         04/Apr/2021  11:37:59
+# Copyright 1999-2019 IAR Systems AB.
+#
+#    Cpu mode     =  
+#    Endian       =  little
+#    Source file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\Led1Task.cpp
+#    Command line =
+#        -f C:\Users\D13C~1\AppData\Local\Temp\EW6972.tmp
+#        (C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\Led1Task.cpp
+#        -lC
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\List
+#        -lA
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\List
+#        -o
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\inc\c\DLib_Config_Normal.h" -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\wrapper\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\wrapper\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\include\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\IAR\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\IAR\ARM_CM4F\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Rtos\FreeRtos\portable\MemMang\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\CMSIS\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Diagnostic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\GpioPort\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\IrqController\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\STM32F411\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Atomic\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\Common\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\Common\Singleton\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\Common\RomObject\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\Port\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\Pin\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Button\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Led\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Application\Measurement\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\AHardware\USART\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\
+#        -I
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\..\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues\
+#        -Ol --c++ --no_exceptions --no_rtti)
+#    Locale       =  C
+#    List file    =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\List\Led1Task.lst
+#    Object file  =
+#        C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\Debug\Obj\Led1Task.o
+#
+###############################################################################
+
+C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\Led1Task.cpp
+      1          #include "led1task.hpp"
+
+    LedTask(Led& led, const std::chrono::milliseconds period): led(led), period(period)
+    ^
+"C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\led1task.hpp",12  Error[Pe260]: 
+          explicit type is missing ("int" assumed)
+
+    LedTask(Led& led, const std::chrono::milliseconds period): led(led), period(period)
+                                                             ^
+"C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\led1task.hpp",12  Error[Pe065]: 
+          expected a ";"
+
+  };
+  ^
+"C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\led1task.hpp",16  Warning[Pe012]: 
+          parsing restarts here after previous syntax error
+
+  class PeriodicTask:public Thread<128U>
+        ^
+"C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\led1task.hpp",5  Warning[Pe368]: 
+          class "PeriodicTask" defines no constructor to initialize the
+          following:
+            reference member "PeriodicTask::led"
+            const member "PeriodicTask::period"
+      2          #include "gpioaregisters.hpp"
+      3          #include "gpiocregisters.hpp"
+      4          
+      5          void LedTask::Execute()
+                      ^
+Error[Pe276]: name followed by "::" must be a class or namespace name
+      6          {
+      7            for(;;)
+      8            {
+      9              led.Toggle();
+                     ^
+Error[Pe020]: identifier "led" is undefined
+     10              Sleep(period);
+                           ^
+Error[Pe020]: identifier "period" is undefined
+
+      Sleep(period);
+      ^
+"C:\Users\@@@@@@@@\Documents\MyIARprojects\KursovoiK\RtosWrapper\MyTasks\Led1Task.cpp",10  Error[Pe020]: 
+          identifier "Sleep" is undefined
+     11            }
+     12          }
+
+Errors: 6
+Warnings: 2
